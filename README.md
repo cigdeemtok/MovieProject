@@ -7,8 +7,8 @@ You can clone this project, get your API key from the TheMovieDB site, replace y
 
 Some images from app  : 
 
-![Movie List View](/images/movielist.jpg)
-![Movie Grid View](/images/moviegrid.jpg)
-![Movie Detail Page](/images/moviedetail.jpg)
-![Movie Favorites Tab](/images/favorites.jpg)
-![Movie Search Bar](/images/searchmovie.jpg)
+![Movie List View](https://github.com/cigdeemtok/MovieProject/blob/master/images/movielist.jpeg)
+![Movie Grid View](https://github.com/cigdeemtok/MovieProject/blob/master/images/moviegrid.jpeg)
+![Movie Detail Page](https://github.com/cigdeemtok/MovieProject/blob/master/images/moviedetail.jpeg)
+![Movie Favorites Tab](https://github.com/cigdeemtok/MovieProject/blob/master/images/favorites.jpeg)
+![Movie Search Bar](https://github.com/cigdeemtok/MovieProject/blob/master/images/searchmovie.jpeg)
