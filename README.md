@@ -11,4 +11,6 @@ Some images from app  :
   <img src="https://github.com/cigdeemtok/MovieProject/blob/master/images/movielist.jpeg" width="33%" />
   <img src="https://github.com/cigdeemtok/MovieProject/blob/master/images/moviegrid.jpeg" width="33%" />
   <img src="https://github.com/cigdeemtok/MovieProject/blob/master/images/moviedetail.jpeg" width="33%" />
+  <img src="https://github.com/cigdeemtok/MovieProject/blob/master/images/favorites.jpeg" width="33%" />
+  <img src="https://github.com/cigdeemtok/MovieProject/blob/master/images/searchmovie.jpeg" width="33%" />
 </p>
