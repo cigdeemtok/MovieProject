@@ -7,8 +7,8 @@ You can clone this project, get your API key from the TheMovieDB site, replace y
 
 Some images from app  : 
 
-![Movie List View](/images/movielist.jpg "List")
-![Movie Grid View](/images/moviegrid.jpg "List")
-![Movie Detail Page](/images/moviedetail.jpg "List")
-![Movie Favorites Tab](/images/favorites.jpg "List")
-![Movie Search Bar](/images/searchmovie.jpg "List")
+![Movie List View](images/movielist.jpg)
+![Movie Grid View](images/moviegrid.jpg)
+![Movie Detail Page](images/moviedetail.jpg "List")
+![Movie Favorites Tab](images/favorites.jpg "List")
+![Movie Search Bar](images/searchmovie.jpg "List")
