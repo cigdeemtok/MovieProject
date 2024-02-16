@@ -7,7 +7,7 @@ data class MovieList(
     @SerializedName("page")
     val page: Int?, // 1
     @SerializedName("results")
-    val results: List<Result?>?,
+    val results: List<Result>?,
     @SerializedName("total_pages")
     val totalPages: Int?, // 39389
     @SerializedName("total_results")
@@ -41,6 +41,8 @@ data class MovieList(
         @SerializedName("vote_average")
         val voteAverage: Double?, // 7.5
         @SerializedName("vote_count")
-        val voteCount: Int? // 2102
+        val voteCount: Int?, // 2102
+        @SerializedName("isFav")
+        var isFav: Boolean
     )
 }

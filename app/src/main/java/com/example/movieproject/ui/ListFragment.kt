@@ -49,6 +49,7 @@ class ListFragment : Fragment() {
         listBinding.myToolbar.inflateMenu(R.menu.menu_options)
 
         return listBinding.root
+
     }
 
     @SuppressLint("NotifyDataSetChanged")

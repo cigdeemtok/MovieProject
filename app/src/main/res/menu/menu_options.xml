@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!-- <item
+        android:id="@+id/menuSearch"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+
+    </item>-->
+
+ <item
+     android:id="@+id/addToFav"
+     android:icon="@android:drawable/btn_star_big_off"
+     android:title="Favorite"
+     app:showAsAction="always"
+     android:visible="false"
+     >
+
+
+ </item>
+    <item
+        android:id="@+id/goToListView"
+        android:title="List View"
+        android:iconTint="@color/colorPrimary"
+        >
+    </item>
+    <item
+        android:id="@+id/goToGridView"
+        android:title="Grid View"
+        android:iconTint="@color/colorPrimary"
+
+
+        >
+    </item>
+
 
 </menu>

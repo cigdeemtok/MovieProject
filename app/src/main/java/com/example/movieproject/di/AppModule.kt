@@ -3,8 +3,6 @@ package com.example.movieproject.di
 import android.content.Context
 import androidx.room.Room
 import com.example.movieproject.api.ApiServices
-import com.example.movieproject.db.FavoritesDao
-import com.example.movieproject.db.FavoritesData
 import com.example.movieproject.db.FavoritesDatabase
 import com.example.movieproject.utils.Constants.API_KEY
 import com.example.movieproject.utils.Constants.BASE_URL
@@ -17,10 +15,11 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)
 @Module
-object ApiModule {
+object AppModule {
 
 
     @Provides
@@ -68,10 +67,12 @@ object ApiModule {
         return retrofit.create(ApiServices::class.java)
     }
 
+    @Singleton
     @Provides
     fun providesDatabase(@ApplicationContext context: Context) = Room.databaseBuilder(
         context,FavoritesDatabase::class.java,"favoritesDb").build()
 
+    @Singleton
     @Provides
     fun provideDao(db : FavoritesDatabase) = db.getFavDao()
 }
